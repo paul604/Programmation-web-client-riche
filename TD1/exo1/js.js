@@ -7,17 +7,23 @@ function loadQ2(){
 }
 
 function loadQ3(){
-  document.getElementsByName("buttonOn")[0].addEventListener("click",function(){OnOff(true);});
-  document.getElementsByName("buttonOff")[0].addEventListener("click",function(){OnOff(false);});
+  var bOn =document.getElementsByName("buttonOn")[0];
+  var bOff= document.getElementsByName("buttonOff")[0];
+  var img= document.getElementById("img");
+  bOn.addEventListener("click",function(){OnOff(true, img);});
+  bOff.addEventListener("click",function(){OnOff(false, img);});
+
+  var imgForOver = document.getElementById("imgOver");
+  imgForOver.addEventListener("mouseover",function(){OnOff(true, imgForOver);});
+  imgForOver.addEventListener("mouseout",function(){OnOff(false, imgForOver);});
+
 }
 
-function OnOff(bool){
-  var img = document.getElementById("img");
+function OnOff(bool, img){
   if(bool){
     img.src="lpon.jpg";
-    return true;
   }else{
     img.src="lpoff.jpg";
-    return false;
   }
+  return bool;
 }
