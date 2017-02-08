@@ -27,3 +27,25 @@ function loadQ2(){
     this.style.color="#f00";
   });
 }
+
+//-------------------------
+
+function loadQ3(){
+  for (var val of document.getElementsByClassName("Q")) {
+    console.log(val);
+    val.addEventListener("click", function(){
+      console.log(document.getElementById(this.id));
+
+      var txt = document.getElementById("").getElementsByClassName("cc");
+      console.log(txt);
+
+      if(txt.isHidden){
+        txt.removeNamedItem("hidden");
+      }else{
+        txt.setNamedItem("hidden");
+      }
+    });
+  }
+  console.log("ok");
+  console.log("-------");
+}
