@@ -32,20 +32,19 @@ function loadQ2(){
 
 function loadQ3(){
   for (var val of document.getElementsByClassName("Q")) {
-    console.log(val);
     val.addEventListener("click", function(){
-      console.log(document.getElementById(this.id));
 
-      var txt = document.getElementById("").getElementsByClassName("cc");
-      console.log(txt);
+      var txt = document.getElementById(this.id).getElementsByClassName("C")[0];
 
-      if(txt.isHidden){
-        txt.removeNamedItem("hidden");
+
+      if(txt.hasAttribute("hidden")){
+        // txt.style.visibility=""
+        txt.removeAttribute("hidden");
       }else{
-        txt.setNamedItem("hidden");
+        // txt.style.visibility="hidden"
+        txt.removeAttribute("hidden");
+        txt.setAttribute("hidden","");
       }
     });
   }
-  console.log("ok");
-  console.log("-------");
 }
