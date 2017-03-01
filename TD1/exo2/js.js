@@ -42,7 +42,6 @@ function loadQ3(){
         txt.removeAttribute("hidden");
       }else{
         // txt.style.visibility="hidden"
-        txt.removeAttribute("hidden");
         txt.setAttribute("hidden","");
       }
     });
