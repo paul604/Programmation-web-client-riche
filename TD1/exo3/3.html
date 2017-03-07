@@ -7,8 +7,51 @@
   </head>
   <body onload="loadQ3()">
     <form id="form" class="form" action="" method="get">
-      Nom : <input type="text" name="nom" value=""> * <br>
-      Prenom : <input type="text" name="Prenom" value=""> * <br>
+      Nom : <input type="text" id="nom" name="nom" value=""> *
+      <span id="nomE"></span>
+      <br>
+
+      Prenom : <input type="text" id="Prenom" name="Prenom" value=""> *
+      <span id="nomP"></span>
+      <br>
+
+      Date de N (JJ/MM/AA) : <input type="text" id="dn" name="dn" value="">
+      <span id="dnE"></span>
+      <br>
+
+      Code Post : <input type="text" id="cp" name="cp" value="">
+      <span id="cpE"></span>
+      <br>
+
+      Pays : <select class="pays" id="pays" name="select p">
+        <option value="France">France</option>
+        <option value="autre">autre</option>
+      </select>
+      <span id="paysE"></span>
+      <br>
+
+      Email : <input class="email" id="email" name="">*
+      <span id="emailE"></span>
+      <br>
+
+      <br><br>
+
+      new Mdp : <input type="text" id="newmdp" name="name" value="">*
+      <span id="newmdpE"></span>
+      <br>
+
+      new Mdp2 : <input type="text" id="newmdp2" name="name" value="">*
+      <span id="newmdp2E"></span>
+      <br>
+
+      <br><br>
+      utilisation ?<br>
+      <input type="radio" name="utils" value="oui">oui
+      <input type="radio" name="utils" value="non" checked="">non
+      <span id="radioE"></span>
+
+      <br>
+
       <input type="submit" name="submit" value="submit" id="submit">
     </form>
   </body>
