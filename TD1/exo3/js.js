@@ -36,7 +36,7 @@ function estVid(val){
 }
 
 function loadQ3() {
-  for (var val of document.getElementsByClassName("input")) {
+  for (var val of document.getElementsByTagName("input")) {
     console.log("log");
     val.addEventListener("blur", function(){estVid2(this)});
   }
