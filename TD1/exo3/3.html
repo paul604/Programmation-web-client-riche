@@ -7,36 +7,36 @@
   </head>
   <body onload="loadQ3()">
     <form id="form" class="form" action="" method="get">
-      Nom : <input type="text" id="nom" name="nom" value=""> *
+      Nom : <input type="text" id="nom" class="string" name="nom" value=""> *
       <span id="nomE"></span>
       <br>
 
-      Prenom : <input type="text" id="Prenom" name="Prenom" value=""> *
+      Prenom : <input type="text" id="Prenom" class="string" name="Prenom" value=""> *
       <span id="PrenomE"></span>
       <br>
 
-      Date de N (JJ/MM/AA) : <input type="text" id="dn" name="dn" value="">
+      Date de N (JJ/MM/AA) : <input type="text" id="dn" class="date" name="dn" value="">
       <span id="dnE"></span>
       <br>
 
-      Code Post : <input type="text" id="cp" name="cp" value="">
+      Code Post : <input type="text" id="cp" class="cp" name="cp" value="">
       <span id="cpE"></span>
       <br>
 
-      Pays : <select class="pays" id="pays" name="select p">
+      Pays : <select class="pays" id="pays" class="string" name="select p">
         <option value="France">France</option>
         <option value="autre">autre</option>
       </select>
       <span id="paysE"></span>
       <br>
 
-      Email : <input class="email" id="email" name="">*
+      Email : <input class="email" id="email" class="email" name="">*
       <span id="emailE"></span>
       <br>
 
       <br><br>
 
-      new Mdp : <input type="text" id="newmdp" name="name" value="">*
+      new Mdp : <input type="text" id="newmdp" class="mdp" name="name" value="">*
       <span id="newmdpE"></span>
       <br>
 
@@ -46,8 +46,9 @@
 
       <br><br>
       utilisation ?<br>
-      <input type="radio" name="utils" value="oui">oui
-      <input type="radio" name="utils" value="non" checked="">non
+      <input id="radioO" type="radio" name="utils" value="oui">oui
+      <span id="radioOE"></span>
+      <input id="radio" type="radio" name="utils" value="non" checked="">non
       <span id="radioE"></span>
 
       <br>
