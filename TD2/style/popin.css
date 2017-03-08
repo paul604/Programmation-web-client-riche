@@ -1,0 +1,33 @@
+.modal{
+    width: 25%;
+    height: 25%;
+    position: fixed;
+    background-color: #DCDCDC;
+    display: none;
+    top: 25%;
+    left: 25%;
+    z-index: 100;
+    padding: 20px;
+    }
+
+.modalbg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 99;
+    display: none;
+}
+
+.modal_close{
+    font-size: 1.2em;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.modal_close:hover{
+    font-weight: bold;
+}

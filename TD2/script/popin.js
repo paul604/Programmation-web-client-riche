@@ -1,0 +1,10 @@
+$(function(){
+  $("button").click(function(){
+    $("div").each(function(){
+      if($(this).css("display")=="none"){
+        $(this).css("display","");
+        console.log($(this).html()+$(this).css("color"));
+      }
+    });
+  });
+});

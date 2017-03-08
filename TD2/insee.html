@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" />
+	<script type="text/javascript" src="http://infoweb-ens/~jacquin-c/jquery-1.11.3.min.js"></script>	
+	<link rel="stylesheet" type="text/css" href="style/insee1.css" media="screen" />
+	<script type="text/javascript" src="script/insee1.js"></script>
+	
+</head>
+<body>
+
+<h1> Données provenant de L'INSEE (Institut National de la Statistique et des Etudes Economiques) </h1>
+<a href="http://www.insee.fr/fr/themes/document.asp?ref_id=T13F021"> accès au site </a>	
+				
+						
+						
+						<table summary="Occupation physique du territoire" id="T13F021T05">
+ 						<caption> Occupation physique du territoire</caption>
+ 						<thead>
+ 							<tr><td colspan="4" class="unite">en milliers d'hectares</td></tr>
+ 							<tr>
+ 								<th class="etendue-colonne" id="YC31"></th>
+ 								<th class="etendue-colonne" id="YC32">1990</th>
+ 								<th class="etendue-colonne" id="YC33">2000</th>
+ 								<th class="etendue-colonne" id="YC34">2010</th>
+ 							</tr>
+ 						</thead>
+ 						<tfoot>
+ 							<tr><td class="note" colspan="4">Note : les évolutions sont à étudier avec précaution car les enquêtes successives présentent des ruptures de série.<br/>
+ Champ : France métropolitaine.</td></tr>
+ 							<tr><td class="source" colspan="4">Source : SSP, enquêtes Teruti et Teruti-Lucas.</td></tr>
+ 						</tfoot>
+ 						<tbody>
+ 							<tr><th class="etendue-ligne" id="YC41">Sols bâtis</th>
+ 								<td class="tab-chiffre" headers="YC32 YC41">858</td>
+ 								<td class="tab-chiffre" headers="YC33 YC41">825</td>
+ 								<td class="tab-chiffre" headers="YC34 YC41">849</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YC51">Sols revêtus ou stabilisés</th>
+ 								<td class="tab-chiffre" headers="YC32 YC51">1 440</td>
+ 								<td class="tab-chiffre" headers="YC33 YC51">1 684</td>
+ 								<td class="tab-chiffre" headers="YC34 YC51">2 320</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YC61">Autres sols artificialisés</th>
+ 								<td class="tab-chiffre" headers="YC32 YC61">1 077</td>
+ 								<td class="tab-chiffre" headers="YC33 YC61">1 577</td>
+ 								<td class="tab-chiffre" headers="YC34 YC61">1 733</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YC71">Sols cultivés</th>
+ 								<td class="tab-chiffre" headers="YC32 YC71">22 866</td>
+ 								<td class="tab-chiffre" headers="YC33 YC71">19 268</td>
+ 								<td class="tab-chiffre" headers="YC34 YC71">18 783</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YC81">Sols boisés</th>
+ 								<td class="tab-chiffre" headers="YC32 YC81">15 554</td>
+ 								<td class="tab-chiffre" headers="YC33 YC81">16 833</td>
+ 								<td class="tab-chiffre" headers="YC34 YC81">17 000</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YC91">Landes, friches, maquis, garrigues</th>
+ 								<td class="tab-chiffre" headers="YC32 YC91">2 603</td>
+ 								<td class="tab-chiffre" headers="YC33 YC91">2 320</td>
+ 								<td class="tab-chiffre" headers="YC34 YC91">2 853</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YC101">Surfaces toujours en herbe</th>
+ 								<td class="tab-chiffre" headers="YC32 YC101">8 552</td>
+ 								<td class="tab-chiffre" headers="YC33 YC101">10 462</td>
+ 								<td class="tab-chiffre" headers="YC34 YC101">9 462</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YC111">Sols nus naturels</th>
+ 								<td class="tab-chiffre" headers="YC32 YC111">895</td>
+ 								<td class="tab-chiffre" headers="YC33 YC111">849</td>
+ 								<td class="tab-chiffre" headers="YC34 YC111">967</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YC121">Zones sous les eaux</th>
+ 								<td class="tab-chiffre" headers="YC32 YC121">934</td>
+ 								<td class="tab-chiffre" headers="YC33 YC121">976</td>
+ 								<td class="tab-chiffre" headers="YC34 YC121">901</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YC131">Zones interdites</th>
+ 								<td class="tab-chiffre" headers="YC32 YC131">140</td>
+ 								<td class="tab-chiffre" headers="YC33 YC131">125</td>
+ 								<td class="tab-chiffre" headers="YC34 YC131">51</td>
+ 							</tr>
+ 							<tr class="tab-total"><th class="etendue-ligne tab-total" id="YC141">Total</th>
+ 								<td class="tab-chiffre" headers="YC32 YC141">54 919</td>
+ 								<td class="tab-chiffre" headers="YC33 YC141">54 919</td>
+ 								<td class="tab-chiffre" headers="YC34 YC141">54 919</td>
+ 							</tr>
+ 							<tr class="tab-total"><th class="ventilation etendue-ligne tab-total" id="YC151">dont surfaces artificialisées (en %)</th>
+ 								<td class="ventilation tab-chiffre" headers="YC32 YC151">6,1</td>
+ 								<td class="ventilation tab-chiffre" headers="YC33 YC151">7,4</td>
+ 								<td class="ventilation tab-chiffre" headers="YC34 YC151">8,9</td>
+ 							</tr></tbody>
+ 					</table>
+ 					
+ 				        <table summary=" Espaces protégés et gérés en 2011" id="T13F021T07">
+ 						<caption> Espaces protégés et gérés en 2011</caption>
+ 						<thead>
+ 							<tr>
+ 								<th class="etendue-colonne" id="AL21"></th>
+ 								<th colspan="2" class="etendue-colonne" id="AL22">France métropolitaine </th>
+ 								<th colspan="2" class="etendue-colonne" id="AL24">DOM</th>
+ 								<th colspan="2" class="etendue-colonne" id="AL26">France</th>
+ 							</tr>
+ 							<tr>
+ 								<th class="etendue-colonne" id="AL31">Types d'espace</th>
+ 								<th class="etendue-colonne" id="AL32">Nombre</th>
+ 								<th class="etendue-colonne" id="AL33">Surface totale en km²</th>
+ 								<th class="etendue-colonne" id="AL34">Nombre</th>
+ 								<th class="etendue-colonne" id="AL35">Surface totale en km²</th>
+ 								<th class="etendue-colonne" id="AL36">Nombre</th>
+ 								<th class="etendue-colonne" id="AL37">Surface totale en km²</th>
+ 							</tr>
+ 						</thead>
+ 						<tfoot>
+ 							<tr><td class="note" colspan="7">1. ZPS : Zones de protection spéciale.<br/>
+ 2. SIC : Sites d'intérêt communautaire.</td></tr>
+ 							<tr><td class="note" colspan="7">/// Absence de résultat due à la nature des choses.</td></tr><tr><td class="source" colspan="7">Source : SOeS.</td></tr>
+ 						</tfoot>
+ 						<tbody>
+ 							<tr><th class="etendue-ligne" id="AL41">Arrêtés préfectoraux de protection de biotope </th>
+ 								<td class="tab-chiffre" headers="AL22 AL32 AL41">709</td>
+ 								<td class="tab-chiffre" headers="AL22 AL33 AL41">1 449</td>
+ 								<td class="tab-chiffre" headers="AL24 AL34 AL41">31</td>
+ 								<td class="tab-chiffre" headers="AL24 AL35 AL41">324</td>
+ 								<td class="tab-chiffre" headers="AL26 AL36 AL41">740</td>
+ 								<td class="tab-chiffre" headers="AL26 AL37 AL41">1 773</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="AL51">Zones humides au titre de la Convention de Ramsar</th>
+ 								<td class="tab-chiffre" headers="AL22 AL32 AL51">29</td>
+ 								<td class="tab-chiffre" headers="AL22 AL33 AL51">7 637</td>
+ 								<td class="tab-chiffre" headers="AL24 AL34 AL51">5</td>
+ 								<td class="tab-chiffre" headers="AL24 AL35 AL51">2 743</td>
+ 								<td class="tab-chiffre" headers="AL26 AL36 AL51">34</td>
+ 								<td class="tab-chiffre" headers="AL26 AL37 AL51">10 381</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="AL61">Réserves de biosphère (zone centrale, zone tampon et aires de coopération)</th>
+ 								<td class="tab-chiffre" headers="AL22 AL32 AL61">8</td>
+ 								<td class="tab-chiffre" headers="AL22 AL33 AL61">11 233</td>
+ 								<td class="tab-chiffre" headers="AL24 AL34 AL61">1</td>
+ 								<td class="tab-chiffre" headers="AL24 AL35 AL61">2 470</td>
+ 								<td class="tab-chiffre" headers="AL26 AL36 AL61">9</td>
+ 								<td class="tab-chiffre" headers="AL26 AL37 AL61">13 703</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="AL71">Sites Natura 2000</th>
+ 								<td class="tab-chiffre" headers="AL22 AL32 AL71">1 753</td>
+ 								<td class="tab-chiffre" headers="AL22 AL33 AL71">110 433</td>
+ 								<td class="tab-chiffre" headers="AL24 AL34 AL71">///</td>
+ 								<td class="tab-chiffre" headers="AL24 AL35 AL71">///</td>
+ 								<td class="tab-chiffre" headers="AL26 AL36 AL71">1 753</td>
+ 								<td class="tab-chiffre" headers="AL26 AL37 AL71">110 433</td>
+ 							</tr>
+ 							<tr><th class="ventilation etendue-ligne" id="AL81">dont : ZPS au titre de la directive « Oiseaux »<sup>1</sup></th>
+ 								<td class="ventilation tab-chiffre" headers="AL22 AL32 AL81">384</td>
+ 								<td class="ventilation tab-chiffre" headers="AL22 AL33 AL81">78 644</td>
+ 								<td class="ventilation tab-chiffre" headers="AL24 AL34 AL81">///</td>
+ 								<td class="ventilation tab-chiffre" headers="AL24 AL35 AL81">///</td>
+ 								<td class="ventilation tab-chiffre" headers="AL26 AL36 AL81">384</td>
+ 								<td class="ventilation tab-chiffre" headers="AL26 AL37 AL81">78 644</td>
+ 							</tr>
+ 							<tr><th class="ventilation etendue-ligne" id="AL91">         propositions de SIC au titre de la directive « Habitats »<sup>2</sup></th>
+ 								<td class="ventilation tab-chiffre" headers="AL22 AL32 AL91">1 369</td>
+ 								<td class="ventilation tab-chiffre" headers="AL22 AL33 AL91">74 287</td>
+ 								<td class="ventilation tab-chiffre" headers="AL24 AL34 AL91">///</td>
+ 								<td class="ventilation tab-chiffre" headers="AL24 AL35 AL91">///</td>
+ 								<td class="ventilation tab-chiffre" headers="AL26 AL36 AL91">1 369</td>
+ 								<td class="ventilation tab-chiffre" headers="AL26 AL37 AL91">74 287</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="AL101">Parcs nationaux</th>
+ 								<td class="tab-chiffre" headers="AL22 AL32 AL101">6</td>
+ 								<td class="tab-chiffre" headers="AL22 AL33 AL101">13 103</td>
+ 								<td class="tab-chiffre" headers="AL24 AL34 AL101">3</td>
+ 								<td class="tab-chiffre" headers="AL24 AL35 AL101">38 126</td>
+ 								<td class="tab-chiffre" headers="AL26 AL36 AL101">9</td>
+ 								<td class="tab-chiffre" headers="AL26 AL37 AL101">51 229</td>
+ 							</tr>
+ 							<tr><th class="ventilation etendue-ligne" id="AL111">dont cœurs de parc</th>
+ 								<td class="ventilation tab-chiffre" headers="AL22 AL32 AL111">6</td>
+ 								<td class="ventilation tab-chiffre" headers="AL22 AL33 AL111">3 550</td>
+ 								<td class="ventilation tab-chiffre" headers="AL24 AL34 AL111">3</td>
+ 								<td class="ventilation tab-chiffre" headers="AL24 AL35 AL111">21 465</td>
+ 								<td class="ventilation tab-chiffre" headers="AL26 AL36 AL111">9</td>
+ 								<td class="ventilation tab-chiffre" headers="AL26 AL37 AL111">25 015</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="AL121">Réserves naturelles nationales</th>
+ 								<td class="tab-chiffre" headers="AL22 AL32 AL121">146</td>
+ 								<td class="tab-chiffre" headers="AL22 AL33 AL121">1 707</td>
+ 								<td class="tab-chiffre" headers="AL24 AL34 AL121">12</td>
+ 								<td class="tab-chiffre" headers="AL24 AL35 AL121">3 040</td>
+ 								<td class="tab-chiffre" headers="AL26 AL36 AL121">158</td>
+ 								<td class="tab-chiffre" headers="AL26 AL37 AL121">4 746</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="AL131">Réserves naturelles de Corse</th>
+ 								<td class="tab-chiffre" headers="AL22 AL32 AL131">6</td>
+ 								<td class="tab-chiffre" headers="AL22 AL33 AL131">838</td>
+ 								<td class="tab-chiffre" headers="AL24 AL34 AL131">///</td>
+ 								<td class="tab-chiffre" headers="AL24 AL35 AL131">///</td>
+ 								<td class="tab-chiffre" headers="AL26 AL36 AL131">6</td>
+ 								<td class="tab-chiffre" headers="AL26 AL37 AL131">838</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="AL141">Réserves nationales de chasse et de faune sauvage</th>
+ 								<td class="tab-chiffre" headers="AL22 AL32 AL141">9</td>
+ 								<td class="tab-chiffre" headers="AL22 AL33 AL141">360</td>
+ 								<td class="tab-chiffre" headers="AL24 AL34 AL141">0</td>
+ 								<td class="tab-chiffre" headers="AL24 AL35 AL141">0</td>
+ 								<td class="tab-chiffre" headers="AL26 AL36 AL141">9</td>
+ 								<td class="tab-chiffre" headers="AL26 AL37 AL141">360</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="AL151">Réserves biologiques domaniales ou forestières</th>
+ 								<td class="tab-chiffre" headers="AL22 AL32 AL151">225</td>
+ 								<td class="tab-chiffre" headers="AL22 AL33 AL151">398</td>
+ 								<td class="tab-chiffre" headers="AL24 AL34 AL151">10</td>
+ 								<td class="tab-chiffre" headers="AL24 AL35 AL151">1 274</td>
+ 								<td class="tab-chiffre" headers="AL26 AL36 AL151">235</td>
+ 								<td class="tab-chiffre" headers="AL26 AL37 AL151">1 672</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="AL161">Parcs naturels régionaux (PNR)</th>
+ 								<td class="tab-chiffre" headers="AL22 AL32 AL161">44</td>
+ 								<td class="tab-chiffre" headers="AL22 AL33 AL161">73 300</td>
+ 								<td class="tab-chiffre" headers="AL24 AL34 AL161">2</td>
+ 								<td class="tab-chiffre" headers="AL24 AL35 AL161">2 859</td>
+ 								<td class="tab-chiffre" headers="AL26 AL36 AL161">46</td>
+ 								<td class="tab-chiffre" headers="AL26 AL37 AL161">76 159</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="AL171">Parc naturel marin</th>
+ 								<td class="tab-chiffre" headers="AL22 AL32 AL171">1</td>
+ 								<td class="tab-chiffre" headers="AL22 AL33 AL171">3 428</td>
+ 								<td class="tab-chiffre" headers="AL24 AL34 AL171">1</td>
+ 								<td class="tab-chiffre" headers="AL24 AL35 AL171">68 313</td>
+ 								<td class="tab-chiffre" headers="AL26 AL36 AL171">2</td>
+ 								<td class="tab-chiffre" headers="AL26 AL37 AL171">71 741</td>
+ 							</tr></tbody>
+ 					</table>
+ 					
+ 					
+ 					<table summary=" Déchets générés et utilisation d'engrais dans l'Union européenne" id="T13F021T09">
+ 						<caption> Déchets générés et utilisation d'engrais dans l'Union européenne</caption>
+ 						<thead>
+ 							<tr>
+ 								<th rowspan="2" class="etendue-colonne" id="YI21"></th>
+ 								<th colspan="3" class="etendue-colonne" id="YI22">Déchets municipaux générés
+ en kg par habitant</th>
+ 								<th colspan="2" class="etendue-colonne" id="YI25">Engrais consommés par l'agriculture<sup>1</sup>
+ en milliers de tonnes </th>
+ 							</tr>
+ 							<tr>
+ 								<th class="etendue-colonne" id="YI32">2000</th>
+ 								<th class="etendue-colonne" id="YI33">2005</th>
+ 								<th class="etendue-colonne" id="YI34">2010</th>
+ 								<th class="etendue-colonne" id="YI35">2009 (r)</th>
+ 								<th class="etendue-colonne" id="YI36">2010</th>
+ 							</tr>
+ 						</thead>
+ 						<tfoot>
+ 							<tr><td class="note" colspan="6">1. Azote, phosphore, phosphate, potassium et potasse.<br/>
+ 2. Les données sur la consommation d'engrais en Belgique et au Luxembourg ne sont pas disponibles séparément.<br/>
+ Note : données estimées.</td></tr>
+ 							<tr><td class="note" colspan="6">... Résultat non disponible.</td></tr><tr><td class="note" colspan="6">(r) Résultat révisé par rapport à l'édition précédente.</td></tr><tr><td class="source" colspan="6">Source : Eurostat.</td></tr>
+ 						</tfoot>
+ 						<tbody>
+ 							<tr><th class="etendue-ligne" id="YI41">Allemagne </th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI41">642</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI41">565</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI41">583</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI41">2 570</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI41">2 920</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI51">Autriche</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI51">580</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI51">618</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI51">591</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI51">165</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI51">185</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI61">Belgique<sup>2</sup></th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI61">475</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI61">479</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI61">466</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI61">312</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI61">357</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI71">Bulgarie</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI71">517</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI71">475</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI71">410</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI71">285</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI71">280</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI81">Chypre</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI81">677</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI81">730</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI81">760</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI81">12</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI81">13</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI91">Danemark</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI91">664</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI91">736</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI91">673</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI91">320</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI91">310</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI101">Espagne</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI101">658</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI101">592</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI101">535</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI101">1 782</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI101">2 036</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI111">Estonie</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI111">462</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI111">436</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI111">311</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI111">64</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI111">62</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI121">Finlande</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI121">502</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI121">478</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI121">470</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI121">261</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI121">267</td>
+ 							</tr>
+ 							<tr class="tab-total"><th class="etendue-ligne tab-total" id="YI131">France</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI131">514</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI131">530</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI131">532</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI131">3 414</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI131">4 121</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI141">Grèce</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI141">407</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI141">437</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI141">457</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI141">392</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI141">382</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI151">Hongrie</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI151">446</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI151">461</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI151">413</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI151">299</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI151">326</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI161">Irlande</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI161">599</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI161">731</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI161">636</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI161">604</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI161">605</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI171">Italie</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI171">509</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI171">540</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI171">531</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI171">1 235</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI171">1 151</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI181">Lettonie</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI181">271</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI181">311</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI181">304</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI181">87</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI181">89</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI191">Lituanie</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI191">365</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI191">377</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI191">381</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI191">260</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI191">277</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI201">Luxembourg<sup>2</sup></th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI201">654</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI201">672</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI201">678</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI201">...</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI201">...</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI211">Malte</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI211">546</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI211">623</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI211">591</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI211">...</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI211">...</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI221">Pays-Bas</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI221">613</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI221">624</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI221">595</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI221">333</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI221">334</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI231">Pologne</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI231">318</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI231">319</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI231">315</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI231">2 389</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI231">2 476</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI241">Portugal</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI241">471</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI241">450</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI241">514</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI241">151</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI241">164</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI251">Rép. tchèque</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI251">334</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI251">289</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI251">317</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI251">339</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI251">388</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI261">Roumanie</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI261">355</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI261">378</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI261">365</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI261">478</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI261">536</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI271">Royaume-Uni</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI271">577</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI271">583</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI271">521</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI271">1 745</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI271">1 831</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI281">Slovaquie</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI281">254</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI281">289</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI281">333</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI281">115</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI281">124</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI291">Slovénie</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI291">513</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI291">422</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI291">422</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI291">65</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI291">67</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="YI301">Suède</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI301">428</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI301">481</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI301">465</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI301">250</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI301">256</td>
+ 							</tr>
+ 							<tr class="tab-total"><th class="etendue-ligne tab-total" id="YI311">UE à 27</th>
+ 								<td class="tab-chiffre" headers="YI22 YI32 YI311">523</td>
+ 								<td class="tab-chiffre" headers="YI22 YI33 YI311">516</td>
+ 								<td class="tab-chiffre" headers="YI22 YI34 YI311">502</td>
+ 								<td class="tab-chiffre" headers="YI25 YI35 YI311">17 925</td>
+ 								<td class="tab-chiffre" headers="YI25 YI36 YI311">19 555</td>
+ 							</tr></tbody>
+ 					</table>
+ 					
+ 					
+ 					
+ 					
+ 					<table summary=" Dépenses liées à l'environnement" id="T13F021T11">
+ 						<caption> Dépenses liées à l'environnement</caption>
+ 						<thead>
+ 							<tr><td colspan="4" class="unite">en millions d'euros courants</td></tr>
+ 							<tr>
+ 								<th class="etendue-colonne" id="KQ31"></th>
+ 								<th class="etendue-colonne" id="KQ32">2000 (r)</th>
+ 								<th class="etendue-colonne" id="KQ33">2005 (r)</th>
+ 								<th class="etendue-colonne" id="KQ34">2010 (p)</th>
+ 							</tr>
+ 						</thead>
+ 						<tfoot>
+ 							<tr><td class="note" colspan="4">... Résultat non disponible.</td></tr><tr><td class="note" colspan="4">(p) Résultat provisoire.</td></tr><tr><td class="note" colspan="4">(r) Résultat révisé par rapport à l'édition précédente.</td></tr><tr><td class="source" colspan="4">Source : SOeS.</td></tr>
+ 						</tfoot>
+ 						<tbody>
+ 							<tr><th class="etendue-ligne" id="KQ41">Air</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ41">1 512</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ41">1 908</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ41">3 297</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="KQ51">Eaux usées</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ51">9 643</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ51">11 596</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ51">12 717</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="KQ61">Déchets</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ61">9 501</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ61">12 438</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ61">15 009</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="KQ71">Sol, eaux souterraines et de surface</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ71">707</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ71">1 174</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ71">1 603</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="KQ81">Bruit</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ81">1 487</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ81">1 918</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ81">2 053</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="KQ91">Biodiversité et paysages</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ91">1 165</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ91">1 423</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ91">1 921</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="KQ101">Déchets radioactifs</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ101">570</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ101">693</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ101">729</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="KQ111">Recherche et développement</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ111">2 274</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ111">3 073</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ111">4 581</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="KQ121">Administration générale</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ121">1 617</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ121">2 543</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ121">3 765</td>
+ 							</tr>
+ 							<tr class="tab-total"><th class="etendue-ligne tab-total" id="KQ131">Protection de l'environnement (1)</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ131">28 477</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ131">36 768</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ131">45 673</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="KQ141">Adduction en eau potable</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ141">9 790</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ141">11 874</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ141">13 080</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="KQ151">Récupération</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ151">3 406</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ151">4 620</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ151">5 636</td>
+ 							</tr>
+ 							<tr class="tab-total"><th class="etendue-ligne tab-total" id="KQ161">Dépense de gestion des ressources (2)</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ161">13 195</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ161">16 494</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ161">18 717</td>
+ 							</tr>
+ 							<tr class="tab-total"><th class="etendue-ligne tab-total" id="KQ171">Dépense liée à l'environnement (1)+(2)</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ171">41 673</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ171">53 261</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ171">64 390</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="KQ181">Espaces verts urbains</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ181">2 131</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ181">2 904</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ181">3 386</td>
+ 							</tr>
+ 							<tr><th class="etendue-ligne" id="KQ191">Énergies renouvelables</th>
+ 								<td class="tab-chiffre" headers="KQ32 KQ191">...</td>
+ 								<td class="tab-chiffre" headers="KQ33 KQ191">...</td>
+ 								<td class="tab-chiffre" headers="KQ34 KQ191">20976</td>
+ 							</tr></tbody>
+ 					</table>
+ 					</body>
+ 					</html>
