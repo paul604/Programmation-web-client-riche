@@ -10,7 +10,7 @@ $(function () {
           console.log(out);
 
           if(out.length==0){
-            $("ul").html("404 :(");
+            $("ul").html("404");
           }else{
             $.each(out, function (i, val) {
               console.log(i);
